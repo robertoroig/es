@@ -14,10 +14,10 @@ export class AppComponent implements OnInit {
   constructor(private projectService: ProjectService) {}
 
   ngOnInit() {
-    /*this.projectService.getProjects()
+    this.projectService.getProjectsList()
       .valueChanges()
       .subscribe(projs => {
         this.projectList = projs;
-      });*/
+      });
   }
 }
