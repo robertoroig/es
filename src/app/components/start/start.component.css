@@ -61,6 +61,15 @@ button {
   outline:none;
 }
 
+button:hover {
+  background-color: #fefefe;
+  opacity:1;
+}
+
+button:hover i {
+  color: #808080!important;
+}
+
 .copyright {
   width: 100%;
   position:absolute;
