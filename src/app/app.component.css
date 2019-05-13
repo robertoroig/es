@@ -1,0 +1,42 @@
+.fullscreen {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #618291;
+}
+.center {
+  position:absolute;
+  left:0; right:0;
+  top:-0vw; bottom:0;
+  margin:auto;
+  max-width:100%;
+  max-height:100%;
+  overflow:auto;
+}
+
+.circle {
+  width: 55vw;
+  height: 55vw;
+  border-radius: 50%;
+  padding: 5px;
+  top:-80vw;
+
+  /* Gradient */
+  background: #fefefe; /* Old browsers */
+  background: -moz-linear-gradient(top,  #fefefe 1%, #c7c4d1 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #fefefe 1%,#c7c4d1 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #fefefe 1%,#c7c4d1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+  /* Shadow */
+  -webkit-box-shadow: 0px 9px 37px -20px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 9px 37px -20px rgba(0,0,0,0.75);
+  box-shadow: 0px 9px 37px -20px rgba(0,0,0,0.75);
+}
+
+.img {
+  border-radius: 50%;
+  width: 55vw;
+  height: 55vw;
+}
