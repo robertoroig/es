@@ -7,14 +7,20 @@ import { AppComponent } from './app.component';
 import { AngularFireModule } from '@angular/fire';
 import { environment } from '../environments/environment';
 import {AngularFireDatabase} from '@angular/fire/database';
+import { StartComponent } from './components/start/start.component';
+import {RouterModule} from '@angular/router';
+import { ShowcaseComponent } from './components/showcase/showcase.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    StartComponent,
+    ShowcaseComponent,
   ],
   imports: [
     BrowserModule,
-    AngularFireModule.initializeApp(environment.firebase)
+    AngularFireModule.initializeApp(environment.firebase),
+    RouterModule
   ],
   providers: [AngularFireDatabase],
   bootstrap: [AppComponent]
